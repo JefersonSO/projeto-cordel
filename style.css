@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cookie&family=Passion+One&family=Rubik+Gemstones&family=Work+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+   
+html, body {
+    min-height: 100vh;
+    background-color: white(248, 248, 248);
+} 
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3.5vw;
+    font-family: 'Sriracha', cursive;
+  
+}
+
+section#imgflor {
+    
+    background-image: url(pacote-d012/imagens/background001.jpg);
+    background-position: right ;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+
+header {   
+    
+    background-color: black;
+    color: white;
+    text-align: center;
+}    
+
+
+h1 {
+    padding-top: 50px;
+    font-family: 'Passion One';
+    font-variant: small-caps;
+    font-size: 10vw;
+    font-weight: 100;
+    text-align: center;
+}
+
+header > p {
+    padding-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif; 
+    
+  
+} 
+
+div.normal {
+    padding: 30px;
+    
+    background-color: white(235, 235, 235); 
+    text-align: left;
+    
+    
+}
+
+
+
+div.janela {
+    
+    padding: 12px ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
+}
+
+div.fundop {
+    position: relative;
+    padding: 30px;
+    width: 55% ;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+section#imgpages {
+    
+    background-image: url(pacote-d012/imagens/background002.jpg);
+    background-position: right ;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+footer {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header a, footer a {
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover, footer a:hover {
+    color: rgb(245, 227, 128);
+}
